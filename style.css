@@ -157,7 +157,7 @@ nav{
   .header{
     padding: 4rem 0;
     height: 80vh;
-    background: url(/img/bgimg1.png) no-repeat center;
+    background: url(img/bgimg1.png) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -551,4 +551,5 @@ padding: 10px;
 }
 
  /*------------- responsive  close here -----------*/
+
  
