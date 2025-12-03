@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="this is an e-commarce project for making  e-commarce website">
+<!-- font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font awesome cdn -->
+
+<link rel="stylesheet" href="style.css">
+
+<title>E-commarce website</title>
+</head>
+
+<body>
+    <!-- nav start here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"> </i>
+    <nav id="menu" class="hidden">
+        <ul class="nav_upper flax-space-around">
+            <li class="nav-link"><a href="index.html" class="nav-link">Home </a></li>
+            <li class="nav-link"><a href="REgister.html" class="nav-link">Register </a></li>
+            <li class="nav-link"><a href="login.html" class="nav-link">Login </a></li>
+            <li class="nav-link"><a href="index.html" class="nav-link">Logout </a></li>
+            <li class="nav-link"><a href="contact.html" class="nav-link">Contact </a></li>
+
+            <li class="nav-link"><a href="profile.html" class="nav-link">
+                    <img class="profile-icon" src="img/photo.jpg" alt="">
+                </a></li>
+        </ul>
+        <ul class="nav-lower flax-space-around">
+            <li class="nav_list"><a href="/index.html " class="nav_brand" class="nav_link">Iqrama</a></li>
+            <li class="nav_list"><a href="cart.html" class="nav_link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    card 2 product- $150.60
+                </a></li>
+        </ul>
+        </ul>
+
+    </nav>
+    <!-- ------------------------nav end here ---------->
+    <main>
+        <div class="cart flex-center">
+            <div class="cart_items">
+                <div class="cart_items-heading card">
+                    <h2>Shoppin Cart[2 items]</h2>
+                    <div class="cart_items-action">
+                        <label for="select">
+                            <input type="checkbox" name="select" id="select">
+                            Select all items
+                        </label>
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <button class="btn">Shop More</button>
+                    </div>
+                </div>
+
+                <div class="cart_item card flax-space-around">
+                    <input type="checkbox" name="" id="">
+
+                    <img src="img/product1.jpeg" alt="product1" class="cart_item-img">
+                    <div class="cart_item-description">
+                        <h3 class="product_name">Sony v-4 Headphone</h3>
+                        <h4 class="product_price">price: $225.99</h4>
+                        <p class="cart_item-shipping">Free Shipping</p>
+                    </div>
+                    <div class="cart_item-action">
+                        <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                        <div>
+                          <button class="btn"><i class="fas fa-add"></i></button>
+                          <span>3</span>
+                          <button class="btn"><i class="fas fa-minus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <div class="cart_item card flax-space-around">
+                    <input type="checkbox" name="" id="">
+
+                    <img src="img/product2.jpeg" alt="product1" class="cart_item-img">
+                    <div class="cart_item-description">
+                        <h3 class="product_name">Sony v-4 Headphone</h3>
+                        <h4 class="product_price">price: $225.99</h4>
+                        <p class="cart_item-shipping">Free Shipping</p>
+                    </div>
+                    <div class="cart_item-action">
+                        <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                        <div>
+                          <button class="btn"><i class="fas fa-add"></i></button>
+                          <span>3</span>
+                          <button class="btn"><i class="fas fa-minus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="cart_payment">
+                <div class="cart_payment-summary card">
+                    <h2>Payment Summary</h2>
+                    <div>
+                        <p>subtotal</p>
+                        <p>$344.99</p>
+                    </div>
+
+                    <div>
+                        <p>Shipping Cost:</p>
+                        <p>$2.50</p>
+                    </div>
+
+                    <div>
+                        <p>Total Cost:</p>
+                        <p>$347.49</p>
+                    </div>
+                    <button class="btn cart_payment-btn">Pay Now</button>
+                </div>
+
+                  <div class="cart_payment-methods card">
+                    <h2>Payment Method</h2>
+                     <div>
+                        <i class="fa-brands fa-cc-visa fa-3x"></i>
+                        <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-amex fa-3x"></i>
+                        <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                        <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                     </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer start here -->
+
+     <footer class="footer flax-space-around">
+    <div class="flax-space-around">
+      <label class="footer_label" for="subscribe">Subscribe for newsletter</label>
+        <input type="email" id="subscribe" name="email" class="footer_input" placeholder="Your Email Address">
+      <button class="btn btn-subscribe">subscribe</button>
+    </div>
+    <div>
+      <p>&copy; copy right Md.Abdul Al Asif. All right</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+    <!-- footer end here -->
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
